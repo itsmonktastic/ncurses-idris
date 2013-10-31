@@ -3,4 +3,11 @@ module Main
 import Curses
 
 main : IO ()
-main = helloCurses
+main = do
+	initscr
+	printw "Hello, world!"
+	getch
+	refresh
+	endwin
+
+
