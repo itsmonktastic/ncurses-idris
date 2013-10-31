@@ -1,0 +1,9 @@
+CC = gcc
+CFLAGS = `idris --include`
+
+ncursesrun.o: ncursesrun.c ncursesrun.h
+
+clean: .PHONY
+	rm ncursesrun.o
+
+.PHONY:

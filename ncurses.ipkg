@@ -1,0 +1,9 @@
+package ncurses
+
+sourcedir = src
+modules = Curses
+
+makefile = MakefileNcursesc
+objs = ncursesrun.o
+libs = ncurses
+
